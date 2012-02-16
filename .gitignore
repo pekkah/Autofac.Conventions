@@ -13,8 +13,8 @@
 # Exclude dlls if they’re in the NuGet packages directory
 packages/
 
-!.nuget/*
-!.nuget/NuGet.exe
+!*/.nuget/*
+!*/.nuget/NuGet.exe
 
 # VS Upgrade stuff #
 ####################
