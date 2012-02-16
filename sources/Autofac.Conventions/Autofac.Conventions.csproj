@@ -54,7 +54,7 @@
     <Compile Include="MarkerModel\Conventions\AsSelfConvention.cs" />
     <Compile Include="MarkerModel\Conventions\SingleInstanceConvention.cs" />
     <Compile Include="MarkerModel\Conventions\TransientConvention.cs" />
-    <Compile Include="MarkerModel\Markers.cs" />
+    <Compile Include="MarkerModel\MarkerConventions.cs" />
     <Compile Include="MarkerModel\IAsSelf.cs" />
     <Compile Include="MarkerModel\ISingleInstanceDependency.cs" />
     <Compile Include="MarkerModel\ITransientDependency.cs" />

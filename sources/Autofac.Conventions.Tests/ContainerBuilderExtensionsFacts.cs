@@ -1,6 +1,7 @@
 ﻿namespace Autofac.Conventions.Tests
 {
     using System;
+    using System.Reflection;
 
     using Autofac.Conventions.Tests.StaticMocks;
 
@@ -21,7 +22,7 @@
         public void should_register_dependency_using_A_convention()
         {
             var builder = new ContainerBuilder();
-            var dependencyTypes = new[] { typeof(MockDependency) };
+            var dependencyTypes = Assembly.GetExecutingAssembly().GetExportedTypes(); //new[] { typeof(MockDependency) };
 
             // convention which should match to IMockDependencyMarker and register it
             var convention = Substitute.For<IRegistrationConvention>();

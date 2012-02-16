@@ -4,9 +4,9 @@
 
     using Autofac.Conventions.MarkerModel.Conventions;
 
-    public static class Markers
+    public static class MarkerConventions
     {
-        public static IEnumerable<IRegistrationConvention> Defaults
+        public static IEnumerable<IRegistrationConvention> Default
         {
             get
             {

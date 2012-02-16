@@ -53,6 +53,11 @@ namespace Autofac.Conventions
 
         private bool IsDependency(Type possibleType)
         {
+            if (possibleType.IsAbstract || possibleType.IsInterface)
+            {
+                return false;
+            }
+
             return this.Conventions.Any(convention => convention.IsMatch(possibleType));
         }
     }

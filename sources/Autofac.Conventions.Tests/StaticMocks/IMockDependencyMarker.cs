@@ -1,6 +1,6 @@
 namespace Autofac.Conventions.Tests.StaticMocks
 {
-    internal interface IMockDependencyMarker
+    public interface IMockDependencyMarker
     {
     }
 }
