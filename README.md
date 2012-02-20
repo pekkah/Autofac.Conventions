@@ -1,9 +1,9 @@
 # Autofac.Conventions
 
-Convention based registration model for Autofac
+Convention based registration model for Autofac (Unofficial)
 
 ## Getting Started
-
+install-package Autofac.Conventions
 
 ```csharp
 // array of possible dependency types
