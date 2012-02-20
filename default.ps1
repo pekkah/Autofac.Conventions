@@ -7,7 +7,7 @@ Properties {
 	$solution = "Autofac.Conventions.sln"
 	$config = "Release"
 	$pack_dir= "$build_dir\nuget-specs"
-	$version = "0.2" # (git describe --tags --candidates 1).split('-')[0]
+	$version = "0.3" # (git describe --tags --candidates 1).split('-')[0]
 }
 
 $framework='4.0';
