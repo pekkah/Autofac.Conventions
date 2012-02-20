@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Conventions.Tests",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A8753C05-A282-4F98-8DC3-FB4F1E3A2043}"
 	ProjectSection(SolutionItems) = preProject
+		..\nuget-specs\Autofac.Conventions\Autofac.Conventions-tmpl.nuspec = ..\nuget-specs\Autofac.Conventions\Autofac.Conventions-tmpl.nuspec
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
