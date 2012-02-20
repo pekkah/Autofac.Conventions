@@ -2,9 +2,6 @@
 
 Convention based registration model for Autofac
 
-
-_NuGet packages are not ready for publishing yet! You can still download and build them yourself!_
-
 ## Getting Started
 
 
@@ -12,7 +9,16 @@ _NuGet packages are not ready for publishing yet! You can still download and bui
 // array of possible dependency types
 var possibleDependencies = Assembly.GetExecutingAssembly().GetExportedTypes();
 
-// register found dependencies using the builtin marker interface conventions
+/****************************************************************************** 
+* Register found dependencies using the builtin marker interface conventions.
+*
+* Marker interfaces:
+* - ITransientDependency : instance per dependency
+* - ISingleInstanceDependency: instance per root container
+* - IAsSelf : modifier which registers dependency as self (default: 
+*   dependencies are registered by implemented interfaces)
+*
+*******************************************************************************/
 var builder = new ContainerBuilder();
 builder.RegisterUsingConventions(possibleDependencies, MarkerConventions.Default);
 IContainer container = builder.Build();
