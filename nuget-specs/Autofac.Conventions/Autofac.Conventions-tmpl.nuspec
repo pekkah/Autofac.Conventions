@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Autofac.Conventions</id>
+    <version>{Version}</version>
+    <title>Unofficial convention based registration model for Autofac</title>
+    <authors>Pekka Heikura</authors>
+    <owners>Pekka Heikura</owners>
+    <projectUrl>http://github.com/pekkah/Autofac.Conventions/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Register your types into the container using simple convention based approach. 
+Includes premade conventions for marker interface based registration.</description>
+    <releaseNotes>First release. Might contain bugs. You have been warned.</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>Dependencies Conventions Autofac</tags>
+    <dependencies>
+      <dependency id="Autofac" version="2.5.2.830" />
+    </dependencies>
+  </metadata>
+</package>

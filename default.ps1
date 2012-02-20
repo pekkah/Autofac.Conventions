@@ -7,7 +7,7 @@ Properties {
 	$solution = "Autofac.Conventions.sln"
 	$config = "Release"
 	$pack_dir= "$build_dir\nuget-specs"
-	$version = "0.1" // (git describe --tags --candidates 1).split('-')[0]
+	$version = "0.1" # (git describe --tags --candidates 1).split('-')[0]
 }
 
 $framework='4.0';
@@ -24,7 +24,7 @@ Task Build -Depends Clean {
 }
 
 Task PackAll -Depends BuildSolution {
-	Pack "$pack_dir\Autofac.Conventions\Autofac.Conventions-Spec.nuspec" "$build_artifacts_bin_dir\Autofac.Conventions.dll" $build_artifacts_dir
+	Pack "$pack_dir\Autofac.Conventions\Autofac.Conventions-tmpl.nuspec" "$build_artifacts_bin_dir\Autofac.Conventions.dll" $build_artifacts_dir
 }
 
 Task Clean {
@@ -43,7 +43,7 @@ Task Clean {
 
 Function Pack {
 	param($spec_template, $assembly, $output_dir)
-	$spec_file = "$spec_template".Replace("-Template", "")
+	$spec_file = "$spec_template".Replace("-tmpl", "")
 	$spec_dir = Split-Path $spec_file
 	
 	Write-Host "Packaging $spec_file $version" -ForegroundColor Green
