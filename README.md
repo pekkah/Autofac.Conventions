@@ -3,7 +3,7 @@
 Convention based registration model for Autofac (Unofficial)
 
 ## Getting Started
-install-package Autofac.Conventions
+install-package Autofac.Conventions (packages are not published yet so clone the repository and build the binary)
 
 ```csharp
 // array of possible dependency types
