@@ -12,10 +12,10 @@
     your types into the container using simple convention based approach. Includes 
     premade conventions for marker interface based registration.</description>
     <releaseNotes>First release. Might contain bugs. You have been warned.</releaseNotes>
-    <copyright>Copyright 2012</copyright>
+    <copyright>Copyright 2013</copyright>
     <tags>Dependencies Conventions Autofac</tags>
     <dependencies>
-      <dependency id="Autofac" version="2.5.2.830" />
+      <dependency id="Autofac" version="3.0.2" />
     </dependencies>
   </metadata>
 </package>
