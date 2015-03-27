@@ -1,20 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Conventions", "Autofac.Conventions\Autofac.Conventions.csproj", "{401F61E7-A9E4-48FF-9A70-D653148ADBDA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Conventions.Tests", "Autofac.Conventions.Tests\Autofac.Conventions.Tests.csproj", "{5F23482B-116B-4252-9AC4-777F1CDE2AD1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A8753C05-A282-4F98-8DC3-FB4F1E3A2043}"
-	ProjectSection(SolutionItems) = preProject
-		..\nuget-specs\Autofac.Conventions\Autofac.Conventions-tmpl.nuspec = ..\nuget-specs\Autofac.Conventions\Autofac.Conventions-tmpl.nuspec
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5A42E540-3379-43E7-827A-BE031F55FAAE}"
 	ProjectSection(SolutionItems) = preProject
-		..\default.ps1 = ..\default.ps1
+		..\nuget-specs\Autofac.Conventions\Autofac.Conventions-tmpl.nuspec = ..\nuget-specs\Autofac.Conventions\Autofac.Conventions-tmpl.nuspec
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
